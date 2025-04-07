@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('mongoose'); // no need for { mongoose }
+const mongoose = require('mongoose'); 
 const cors = require('cors');
 const Employe = require('./model/Employes');
 const nodemailer = require('nodemailer');
